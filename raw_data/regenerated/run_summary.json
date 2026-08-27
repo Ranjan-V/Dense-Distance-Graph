@@ -1,0 +1,16 @@
+{
+  "updates": 240,
+  "support_equivalence_failures": 0,
+  "interval_violations": 0,
+  "bitonic_rows_tested": 3445,
+  "bitonic_violations": 0,
+  "unimodal_peak_violations": 0,
+  "max_slack_sign_turns": 1,
+  "changed_entries_total": 23850,
+  "active_descriptors_total": 4944,
+  "max_compression_ratio": 9.714285714285714,
+  "median_compression_ratio": 4.488095238095238,
+  "active_kernel_queries": 810,
+  "active_kernel_max_abs_error": 1.7763568394002505e-15,
+  "runtime_seconds": 21.860601224000675
+}

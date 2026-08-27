@@ -1,0 +1,6 @@
+{
+  "graph": "exact-integer triangulated 5x5 grid",
+  "boundary_size": 16,
+  "edge": "(12, 18)",
+  "changed_entries": 80
+}

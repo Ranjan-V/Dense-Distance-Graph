@@ -1,0 +1,84 @@
+{
+  "arithmetic": "exact Python integers; primary integer weights with deterministic subset-unique perturbations",
+  "exhaustive_instances": 2784,
+  "exhaustive_slack_rows": 6870,
+  "support_checked_instances": 256,
+  "support_failures": 0,
+  "interval_failures": 0,
+  "max_forbidden_score": [
+    0,
+    1,
+    5
+  ],
+  "counterexample": null,
+  "classes": {
+    "outerplanar_all_topologies_n<=5": {
+      "instances": 224,
+      "rows": 235
+    },
+    "maximal_outerplanar_all_topologies_n6": {
+      "instances": 896,
+      "rows": 3369
+    },
+    "grid_2x3": {
+      "instances": 128,
+      "rows": 598
+    },
+    "tri_grid_2x3": {
+      "instances": 512,
+      "rows": 2056
+    },
+    "wheel_5": {
+      "instances": 1024,
+      "rows": 612
+    }
+  },
+  "annealing": {
+    "score": [
+      0,
+      1,
+      11
+    ],
+    "bases": [
+      3,
+      10,
+      3,
+      3,
+      3,
+      12,
+      5,
+      12,
+      10,
+      12,
+      3,
+      2,
+      8,
+      11,
+      4,
+      5,
+      10,
+      9,
+      4,
+      10,
+      5,
+      7,
+      4,
+      11,
+      12,
+      2,
+      10,
+      11,
+      6,
+      10,
+      11,
+      6,
+      4
+    ],
+    "counterexample": null,
+    "evaluations": 405
+  },
+  "active_kernel_exact": {
+    "queries": 810,
+    "failures": 0
+  }
+}

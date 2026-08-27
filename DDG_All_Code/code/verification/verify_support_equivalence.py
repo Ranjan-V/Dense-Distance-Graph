@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+"""Exact finite checks focused on Proposition 5.1 (support equivalence)."""
+from __future__ import annotations
+import json, sys
+from pathlib import Path
+CODE_ROOT=Path(__file__).resolve().parents[1]
+if str(CODE_ROOT) not in sys.path: sys.path.insert(0,str(CODE_ROOT))
+from verification.verify_support_interval import run as _combined_run
+
+def run() -> dict:
+    x=_combined_run()
+    out={"status":"PASS" if x["support_failures"]==0 else "FAIL",
+         "arithmetic":x["arithmetic"],"pair_checks":x["pair_checks"],
+         "support_failures":x["support_failures"]}
+    if out["status"]!="PASS": raise AssertionError(out)
+    return out
+
+if __name__=='__main__': print(json.dumps(run(),indent=2))

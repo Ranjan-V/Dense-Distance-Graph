@@ -1,0 +1,291 @@
+{
+  "support_equivalence": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "pair_checks": 5568,
+    "support_failures": 0
+  },
+  "interval_theorem": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "affected_rows_checked": 187,
+    "interval_failures": 0
+  },
+  "replacement_identity": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "affected_pairs_checked": 212,
+    "failures": 0
+  },
+  "peak_unimodality": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "affected_rows_checked": 226,
+    "unimodality_failures": 0,
+    "three_region_failures": 0
+  },
+  "three_region_structure": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "affected_rows_checked": 226,
+    "three_region_failures": 0
+  },
+  "interval_patch_lower_bound": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "checked_k_range": [
+      3,
+      32
+    ],
+    "instances": 30,
+    "checks": [
+      {
+        "k": 3,
+        "r": 9,
+        "affected_targets": 2,
+        "distinct_corrections": 2,
+        "first_correction": 5,
+        "last_correction": 3
+      },
+      {
+        "k": 4,
+        "r": 16,
+        "affected_targets": 3,
+        "distinct_corrections": 3,
+        "first_correction": 9,
+        "last_correction": 5
+      },
+      {
+        "k": 5,
+        "r": 25,
+        "affected_targets": 4,
+        "distinct_corrections": 4,
+        "first_correction": 13,
+        "last_correction": 7
+      },
+      {
+        "k": 6,
+        "r": 36,
+        "affected_targets": 5,
+        "distinct_corrections": 5,
+        "first_correction": 17,
+        "last_correction": 9
+      },
+      {
+        "k": 7,
+        "r": 49,
+        "affected_targets": 6,
+        "distinct_corrections": 6,
+        "first_correction": 21,
+        "last_correction": 11
+      },
+      {
+        "k": 8,
+        "r": 64,
+        "affected_targets": 7,
+        "distinct_corrections": 7,
+        "first_correction": 25,
+        "last_correction": 13
+      },
+      {
+        "k": 9,
+        "r": 81,
+        "affected_targets": 8,
+        "distinct_corrections": 8,
+        "first_correction": 29,
+        "last_correction": 15
+      },
+      {
+        "k": 10,
+        "r": 100,
+        "affected_targets": 9,
+        "distinct_corrections": 9,
+        "first_correction": 33,
+        "last_correction": 17
+      },
+      {
+        "k": 11,
+        "r": 121,
+        "affected_targets": 10,
+        "distinct_corrections": 10,
+        "first_correction": 37,
+        "last_correction": 19
+      },
+      {
+        "k": 12,
+        "r": 144,
+        "affected_targets": 11,
+        "distinct_corrections": 11,
+        "first_correction": 41,
+        "last_correction": 21
+      },
+      {
+        "k": 13,
+        "r": 169,
+        "affected_targets": 12,
+        "distinct_corrections": 12,
+        "first_correction": 45,
+        "last_correction": 23
+      },
+      {
+        "k": 14,
+        "r": 196,
+        "affected_targets": 13,
+        "distinct_corrections": 13,
+        "first_correction": 49,
+        "last_correction": 25
+      },
+      {
+        "k": 15,
+        "r": 225,
+        "affected_targets": 14,
+        "distinct_corrections": 14,
+        "first_correction": 53,
+        "last_correction": 27
+      },
+      {
+        "k": 16,
+        "r": 256,
+        "affected_targets": 15,
+        "distinct_corrections": 15,
+        "first_correction": 57,
+        "last_correction": 29
+      },
+      {
+        "k": 17,
+        "r": 289,
+        "affected_targets": 16,
+        "distinct_corrections": 16,
+        "first_correction": 61,
+        "last_correction": 31
+      },
+      {
+        "k": 18,
+        "r": 324,
+        "affected_targets": 17,
+        "distinct_corrections": 17,
+        "first_correction": 65,
+        "last_correction": 33
+      },
+      {
+        "k": 19,
+        "r": 361,
+        "affected_targets": 18,
+        "distinct_corrections": 18,
+        "first_correction": 69,
+        "last_correction": 35
+      },
+      {
+        "k": 20,
+        "r": 400,
+        "affected_targets": 19,
+        "distinct_corrections": 19,
+        "first_correction": 73,
+        "last_correction": 37
+      },
+      {
+        "k": 21,
+        "r": 441,
+        "affected_targets": 20,
+        "distinct_corrections": 20,
+        "first_correction": 77,
+        "last_correction": 39
+      },
+      {
+        "k": 22,
+        "r": 484,
+        "affected_targets": 21,
+        "distinct_corrections": 21,
+        "first_correction": 81,
+        "last_correction": 41
+      },
+      {
+        "k": 23,
+        "r": 529,
+        "affected_targets": 22,
+        "distinct_corrections": 22,
+        "first_correction": 85,
+        "last_correction": 43
+      },
+      {
+        "k": 24,
+        "r": 576,
+        "affected_targets": 23,
+        "distinct_corrections": 23,
+        "first_correction": 89,
+        "last_correction": 45
+      },
+      {
+        "k": 25,
+        "r": 625,
+        "affected_targets": 24,
+        "distinct_corrections": 24,
+        "first_correction": 93,
+        "last_correction": 47
+      },
+      {
+        "k": 26,
+        "r": 676,
+        "affected_targets": 25,
+        "distinct_corrections": 25,
+        "first_correction": 97,
+        "last_correction": 49
+      },
+      {
+        "k": 27,
+        "r": 729,
+        "affected_targets": 26,
+        "distinct_corrections": 26,
+        "first_correction": 101,
+        "last_correction": 51
+      },
+      {
+        "k": 28,
+        "r": 784,
+        "affected_targets": 27,
+        "distinct_corrections": 27,
+        "first_correction": 105,
+        "last_correction": 53
+      },
+      {
+        "k": 29,
+        "r": 841,
+        "affected_targets": 28,
+        "distinct_corrections": 28,
+        "first_correction": 109,
+        "last_correction": 55
+      },
+      {
+        "k": 30,
+        "r": 900,
+        "affected_targets": 29,
+        "distinct_corrections": 29,
+        "first_correction": 113,
+        "last_correction": 57
+      },
+      {
+        "k": 31,
+        "r": 961,
+        "affected_targets": 30,
+        "distinct_corrections": 30,
+        "first_correction": 117,
+        "last_correction": 59
+      },
+      {
+        "k": 32,
+        "r": 1024,
+        "affected_targets": 31,
+        "distinct_corrections": 31,
+        "first_correction": 121,
+        "last_correction": 61
+      }
+    ]
+  },
+  "active_edge_kernel": {
+    "status": "PASS",
+    "arithmetic": "exact integers",
+    "queries": 270,
+    "failures": 0
+  },
+  "status": "PASS"
+}

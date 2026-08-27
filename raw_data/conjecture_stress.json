@@ -1,0 +1,7 @@
+{
+  "graphs": 60,
+  "rows_tested": 6912,
+  "unimodal_peak_violations": 0,
+  "interval_violations": 0,
+  "max_sign_turns": 1
+}

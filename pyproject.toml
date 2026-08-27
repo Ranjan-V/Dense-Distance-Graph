@@ -1,0 +1,10 @@
+[project]
+name = "ddg-structural-compression-repro"
+version = "1.0.0"
+description = "Reproducibility code for Structural Compression in Dynamic Dense Distance Graphs"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["code"]
+testpaths = ["code/tests"]
+addopts = "-ra"
