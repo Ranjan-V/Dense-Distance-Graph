@@ -142,17 +142,6 @@ PYTHONPATH=code python code/figures/generate_all_figures.py \
 
 Generated computational figures are `support_matrix_example`, `slack_profile`, `support_scaling`, and `runtime_benchmark` in PDF/PNG. The conceptual support-vs-values figure is generated in LaTeX/TikZ. No plotted data are manually edited.
 
-## Manuscript compilation
-
-Install/obtain SIAM's current standard journal macro distribution and then run:
-
-```bash
-cd manuscript
-latexmk -pdf main.tex
-```
-
-The SIAM class/style files are third-party materials and are not individually redistributed in these archives; see `SIAM_MACROS.md`.
-
 ## Raw/processed data and comparison
 
 All reported finite experimental quantities have a raw machine-readable source under `raw_data/`. Derived summaries are under `processed_data/`. A successful full reproduction ends with:
@@ -165,4 +154,4 @@ Use `REPRODUCIBILITY_REPORT.md`, `processed_data/validation_summary.json`, `EXPE
 
 ## License
 
-See `LICENSE`. The accompanying authors' code/data are packaged for scholarly peer review and reproducibility. SIAM macro files remain third-party materials and are not redistributed here.
+See `LICENSE`. The accompanying authors' code and data are packaged for scholarly peer review and reproducibility.
